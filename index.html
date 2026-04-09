@@ -47,7 +47,7 @@
 
         /* Hero section (банер) */
         .hero {
-            background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3d/Yellow_rape_flower.jpg'); /* Фонове зображення */
+            background: linear-gradient(to right, rgba(0, 105, 68, 0.7) 50%, rgba(255, 255, 255, 0.7) 50%), url('https://upload.wikimedia.org/wikipedia/commons/3/3d/Yellow_rape_flower.jpg'); /* Половина зображення */
             background-size: cover;
             background-position: center;
             height: 500px;
@@ -149,42 +149,7 @@
             font-size: 18px;
             color: #333;
         }
-.hero {
-        background-image: url('OIP.webp'); /* Замість 'path_to_your_image.jpg' вставте шлях до вашого зображення */
-        background-size: cover; /* Це дозволить зображенню покривати весь блок */
-        background-position: center; /* Встановлює зображення в центр */
-        height: 500px; /* Висота секції */
-        color: white;
-        text-align: center;
-        padding-top: 120px;
-    }
 
-    /* Заголовок */
-    .hero h1 {
-        font-size: 38px;
-        margin: 0;
-    }
-
-    /* Опис */
-    .hero p {
-        font-size: 24px;
-        margin: 10px 0;
-    }
-
-    /* Кнопка */
-    .btn {
-        background-color: #006944;
-        padding: 15px 30px;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        font-size: 18px;
-        margin-top: 20px;
-    }
-
-    .btn:hover {
-        background-color: #004c2c;
-    }
         footer {
             background-color: #006944;
             color: white;
@@ -220,30 +185,30 @@
     <section id="programs" class="programs">
         <h2>Наші програми</h2>
 
-        <div class="cards" onclick="location.href='log.html';">
-            <div class="card" onclick="location.href='log.html';">
-                <h3 onclick="location.href='log.html';">Фінансова допомога малозабезпеченим</h3>
-                <p onclick="location.href='log.html';">Підтримка для покриття основних витрат на їжу, житло, комунальні послуги.</p>
+        <div class="cards">
+            <div class="card">
+                <h3>Фінансова допомога малозабезпеченим</h3>
+                <p>Підтримка для покриття основних витрат на їжу, житло, комунальні послуги.</p>
                 <a href="log.html">Дізнатися більше</a>
             </div>
 
-            <div class="card" onclick="location.href='log.html';">
-                <h3 onclick="location.href='log.html';">Підтримка безробітних</h3>
-                <p onclick="location.href='log.html';">Курси перекваліфікації та допомога у пошуку роботи.</p>
+            <div class="card">
+                <h3>Підтримка безробітних</h3>
+                <p>Курси перекваліфікації та допомога у пошуку роботи.</p>
                 <a href="log.html">Дізнатися більше</a>
             </div>
 
-            <div class="card" onclick="location.href='log.html';">
-                <h3 onclick="location.href='log.html';">Програми для осіб з інвалідністю</h3>
-                <p onclick="location.href='log.html';">Медична підтримка та реабілітація для осіб з інвалідністю.</p>
+            <div class="card">
+                <h3>Програми для осіб з інвалідністю</h3>
+                <p>Медична підтримка та реабілітація для осіб з інвалідністю.</p>
                 <a href="log.html">Дізнатися більше</a>
             </div>
         </div>
     </section>
 
     <!-- Контакти -->
-    <section id="contact" onclick="location.href='log.html';">
-        <h2 onclick="location.href='log.html';">Контакти</h2>
+    <section id="contact">
+        <h2>Контакти</h2>
         <p>Для додаткової інформації, звертайтесь за наступними контактами:</p>
         <p>Email: <a href="mailto:support@agroprosperisbank.com">support@agroprosperisbank.com</a></p>
         <p>Телефон: +38 (044) 123-45-67</p>
